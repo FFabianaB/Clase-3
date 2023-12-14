@@ -8,7 +8,7 @@ const server = http.createServer((req, res) => {
 
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
-    res.end('Hola Achura');
+    res.end('Hola Mundo...');
 })
 server.listen(port, host, () => {
     console.log(`El Server está corriendo en http://${host}:${port}`);
